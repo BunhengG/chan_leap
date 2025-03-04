@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-gray-200: oklch(0.81 0.117 11.638);
+  --color-gray-400: oklch(0.637 0.237 25.331);
+}
+
+/* Add scrolling animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 6s linear infinite;
+}
+
+.scroller__inner {
+  display: flex;
+  gap: 2rem; 
+}
+
+.scroller {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: white; 
+}
+
+.scroller__inner {
+  display: flex;
+  gap: 1rem; 
+}
