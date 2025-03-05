@@ -67,7 +67,7 @@ export default function Navbar() {
   const getLinkClass = (id) =>
     activeSection === id
       ? "font-bold text-white border-b-2 border-white pb-1 transition-all duration-300"
-      : "font-bold text-white/70 hover:text-white transition-all duration-300";
+      : "font-bold text-white/70 hover:text-white hover:border-b-2 hover:pb-1 hover:border-white transition-all duration-200";
 
   return (
     <nav
@@ -78,7 +78,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center w-full max-w-7xl mx-auto">
         {/* Left Section (Desktop) */}
         <div className="flex items-center gap-4">
-          <p className="hidden lg:block text-lg text-white/70 hover:text-white px-2">
+          <p className="hidden lg:block text-lg text-white/80 hover:text-white px-2">
             sengchanleap2002<span className="italic">@gmail.com</span>
           </p>
 
@@ -112,7 +112,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Hamburger Button */}
-        <button className="md:hidden text-2xl" onClick={() => setOpen(!open)}>
+        <button className="md:hidden text-2xl text-white" onClick={() => setOpen(!open)}>
           ☰
         </button>
       </div>

@@ -22,7 +22,7 @@ const WorkExperience = () => {
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
           >
-            <span className="text-3xl">🏵️</span>
+            <span className="text-3xl">🌸</span>
           </motion.div>
           My Experience
           <motion.div
@@ -30,7 +30,7 @@ const WorkExperience = () => {
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
           >
-            <span className="text-3xl">🏵️</span>
+            <span className="text-3xl">🌸</span>
           </motion.div>
         </motion.h1>
 

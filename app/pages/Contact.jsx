@@ -91,7 +91,7 @@ export default function Contact() {
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
           >
-            <span className="text-3xl">🏵️</span>
+            <span className="text-3xl">🌸</span>
           </motion.div>
           Contact Me
           <motion.div
@@ -99,7 +99,7 @@ export default function Contact() {
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
           >
-            <span className="text-3xl">🏵️</span>
+            <span className="text-3xl">🌸</span>
           </motion.div>
         </motion.h1>
 
@@ -122,7 +122,7 @@ export default function Contact() {
                 value={form.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-purple-500 outline-none"
               />
             </motion.div>
 
@@ -138,7 +138,7 @@ export default function Contact() {
                 value={form.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-purple-500 outline-none"
               />
             </motion.div>
           </div>
@@ -154,7 +154,7 @@ export default function Contact() {
                 name="countryCode"
                 value={form.countryCode}
                 onChange={handleCountryChange}
-                className="w-20 border rounded-lg p-2 bg-white focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-20 border rounded-lg p-2 bg-white focus:ring-2 focus:ring-purple-500 outline-none"
               >
                 <option value="+1">🇺🇸 +1</option>
                 <option value="+44">🇬🇧 +44</option>
@@ -171,7 +171,7 @@ export default function Contact() {
                 value={form.phone}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 outline-none"
+                className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-500 outline-none"
                 placeholder="Enter phone number"
               />
             </div>
@@ -189,7 +189,7 @@ export default function Contact() {
               value={form.company}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-red-500 outline-none"
+              className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-purple-500 outline-none"
             />
           </motion.div>
 
@@ -204,7 +204,7 @@ export default function Contact() {
               value={form.message}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-red-500 outline-none"
+              className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-2 focus:ring-purple-500 outline-none"
             />
           </motion.div>
 
@@ -230,7 +230,7 @@ export default function Contact() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 200, damping: 10 }}
-            className="w-full bg-red-500 text-white py-3 rounded-3xl font-semibold hover:bg-red-600"
+            className="w-full bg-purple-500 text-white py-3 rounded-3xl font-semibold hover:bg-purple-600"
             disabled={loading}
           >
             {loading ? "Sending..." : "Send Message"}

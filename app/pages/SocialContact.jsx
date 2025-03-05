@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaLinkedin, FaTiktok, FaFacebookMessenger, FaInstagram, FaTelegram, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaTiktok, FaFacebookMessenger, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const socialLinks = [
   { name: "LinkedIn", icon: <FaLinkedin />, url: "https://www.linkedin.com/in/bunheng-mai-31200a205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
@@ -14,7 +14,7 @@ const socialLinks = [
 export default function SocialContact() {
   return (
     <section className="py-12 bg-black/5">
-      <h2 className="text-center text-2xl font-semibold mb-8 text-white">Social Contact</h2>
+      <h2 className="text-center text-3xl font-semibold mb-8 text-white">Social Contact</h2>
 
       <div className="flex justify-center gap-6">
         {socialLinks.map((social, index) => (
@@ -23,7 +23,7 @@ export default function SocialContact() {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-5xl text-white hover:text-red-500 transition duration-300"
+            className="text-5xl text-white hover:text-purple-200 transition duration-300"
             whileHover={{ scale: 1.2, rotate: 5 }}
             whileTap={{ scale: 0.9 }}
           >
