@@ -7,7 +7,7 @@ const socialLinks = [
   { name: "LinkedIn", icon: <FaLinkedin />, url: "#" },
   { name: "Messenger", icon: <FaFacebookMessenger />, url: "#" },
   { name: "Instagram", icon: <FaInstagram />, url: "#" },
-  { name: "Telegram", icon: <FaTelegram />, url: "#" },
+  { name: "Telegram", icon: <FaTelegram />, url: "https://t.me/Sengchanleap" },
 ];
 
 export default function SocialContact() {
