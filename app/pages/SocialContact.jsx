@@ -1,14 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaLinkedin, FaTiktok, FaFacebookMessenger, FaInstagram, FaTelegram } from "react-icons/fa";
+import { FaLinkedin, FaFacebookMessenger, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const socialLinks = [
-  { name: "LinkedIn", icon: <FaLinkedin />, url: "https://www.linkedin.com/in/bunheng-mai-31200a205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
-  { name: "TikTok", icon: <FaTiktok />, url: "https://www.tiktok.com/@hengcoding?_t=ZS-8uNPlsuslCU&_r=1" },
-  { name: "Messenger", icon: <FaFacebookMessenger />, url: "https://m.me/100071312815169?hash=AbarFgzOudhi6mhb&source_id=6946816" },
-  { name: "Instagram", icon: <FaInstagram />, url: "https://www.instagram.com/lyheng__?igsh=OXVndWdmbWEwNTVs&utm_source=qr" },
-  { name: "Telegram", icon: <FaTelegram />, url: "https://t.me/maibunheng" },
+  { name: "LinkedIn", icon: <FaLinkedin />, url: "#" },
+  { name: "Messenger", icon: <FaFacebookMessenger />, url: "#" },
+  { name: "Instagram", icon: <FaInstagram />, url: "#" },
+  { name: "Telegram", icon: <FaTelegram />, url: "#" },
 ];
 
 export default function SocialContact() {
