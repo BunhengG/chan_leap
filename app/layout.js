@@ -1,4 +1,7 @@
+'use client'
+
 import { useEffect } from "react";
+import "./globals.css";
 import Navbar from "./pages/Navbar";
 
 export default function RootLayout({ children }) {

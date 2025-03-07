@@ -14,8 +14,6 @@ export default function Hero() {
         {/* Background Flower */}
         <div className="absolute inset-0 hidden xl:block bg-[url('/bg.png')] bg-cover bg-no-repeat rounded-b-custom opacity-10 pointer-events-none" />
 
-
-
         {/* Profile Image with Flower Spinner Below */}
         <div className="flex flex-col items-center relative">
           <motion.div
@@ -49,9 +47,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mt-2 text-2xl md:text-5xl font-bold text-white"
         >
-          Turning ideas into <span className="text-purple-600">fast</span>,{" "}
-          <span className="text-purple-600">functional</span>, and{" "}
-          <span className="text-purple-600">beautiful digital solutions</span>.
+          Finance & Administration | Student Affairs Specialist.
         </motion.h1>
 
         {/* Animated Paragraph */}
@@ -61,7 +57,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-4 text-lg text-white"
         >
-          Creating impactful results for brands and agencies.
+          Experienced in financial operations, student engagement, and administrative coordination.
         </motion.p>
 
         {/* Animated Button */}

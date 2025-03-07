@@ -21,8 +21,8 @@ export default function Navbar() {
   // To download CV
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/cv_maibunheng.pdf";
-    link.download = "Seng_Chanleap_CV.pdf";
+    link.href = "/seng_chanleap_CV.pdf";
+    link.download = "seng_chanleap_CV.pdf";
     link.click();
   };
 
